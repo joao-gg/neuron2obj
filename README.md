@@ -22,7 +22,7 @@ Example:
 
 <img src="img/selecting_some_neurons.png">
 
-## 2. Download'em!
+## 3. Download'em!
 
 Example:
 
