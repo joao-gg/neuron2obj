@@ -32,7 +32,7 @@ Example:
 
 ---
 
-Tool's arguments can be visualized by running:
+**NOTE:** Aditional info can be obtained by running:
 
 ```shell
 python3 neuron2obj.py --help
