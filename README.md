@@ -29,3 +29,11 @@ Example:
 ```shell
  python3 neuron2obj.py precomputed://gs://h01-release/data/20210601/c3 5390777283,5535779437,6263276083,6614928166 --lod=1
 ```
+
+---
+
+Tool's arguments can be visualized by running:
+
+```shell
+python3 neuron2obj.py --help
+```
