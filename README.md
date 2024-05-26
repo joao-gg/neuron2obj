@@ -1,2 +1,3 @@
-# Mesh 2 Obj
-A simple tool for extracting volumetric data from Google Cloud Storage datasets as Wavefront (.obj) files.
+# Neuron2Obj
+
+A tool for extracting neurons volumetric data from a Google Cloud Storage dataset as Wavefront (.obj) files.
