@@ -5,9 +5,6 @@ import navis
 
 import logging
 
-#  precomputed://gs://h01-release/data/20210601/c3', 
-# [4489064511]
-
 logging.basicConfig(
     level  = logging.INFO, 
     format = "%(asctime)s - %(levelname)s - %(message)s"
