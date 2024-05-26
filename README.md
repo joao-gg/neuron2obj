@@ -6,16 +6,22 @@ A tool for extracting neurons volumetric data from a Google Cloud Storage datase
 
 # USAGE
 
-### 1. First, launch <a href="neuroglancer-demo.appspot.com/">Neuroglancer</a> and render a `precomputed` dataset.
+### 1. First, launch <a href="neuroglancer-demo.appspot.com/">Neuroglancer</a> and render a precomputed dataset.
 
-Check out this <a href="http://h01-dot-neuroglancer-demo.appspot.com/#!gs://h01-release/assets/neuroglancer_states/20210729/library_state.json">example</a>.
+Example:
+
+<a href="http://h01-dot-neuroglancer-demo.appspot.com/#!gs://h01-release/assets/neuroglancer_states/20210729/library_state.json">precomputed://gs://h01-release/data/20210601/c3</a>
 
 ### 2. Select your desired neuron(s).
 
-Example: 5390777283,5535779437,6263276083,6614928166
+Example: 
+
+`5390777283,5535779437,6263276083,6614928166`
 
 ### 2. Download'em!
 
-```shell
+Example:
 
+```shell
+ python3 neuron2obj.py precomputed://gs://h01-release/data/20210601/c3 5390777283,5535779437,6263276083,6614928166 --lod=1
 ```
