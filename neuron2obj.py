@@ -35,6 +35,13 @@ def get_neuron_meshes(cloudpath, neuron_IDs, lod = 3):
         return None
 
 def save_neuron_obj(neuron, filename):
+    """
+    Saves a neuron mesh as an OBJ file.
+
+    Args:
+        neuron (navis.MeshNeuron): The neuron mesh to save.
+        filename (str): The filename to save the mesh as.
+    """
     try:
         vertices = neuron.vertices
         faces    = neuron.faces
