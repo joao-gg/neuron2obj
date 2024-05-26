@@ -1,9 +1,8 @@
 import cloudvolume as cv
 import argparse
 import trimesh
-import navis
-
 import logging
+import navis
 
 logging.basicConfig(
     level  = logging.INFO, 
